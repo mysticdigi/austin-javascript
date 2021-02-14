@@ -31,6 +31,10 @@
         let name = firstName + " " + middleName + " " + lastName;
         console.log(name);
 
+        // Strings on my own
+        let greeting = 'My name is ' + name
+        console.log(greeting)
+
         console.log("Using functions:");
 
         // function to make square numbers
@@ -49,12 +53,13 @@
         console.log(try04)
 
         // Functions on my own
-        function makeName(firstName, middleName, lastName){let myName = console.log(firstName + ' ' + middleName + ' ' + lastName)}
-        console.log(myName)
+        function makeName(firstName, middleName, lastName) {console.log(firstName + ' ' + middleName + ' ' + lastName)}
+        makeName(firstName, middleName, lastName)
 
-
-
-
+        function nameMaker(nameOne, nameTwo, nameThree){console.log(nameOne + ' '+ nameTwo + ' ' + nameThree)}
+        nameMaker("John", "\"June\"", "Egbert")
+        nameMaker("Robert", "\"Beto\"", "O'Rourke")
+        nameMaker("Dave", "Elizabeth", "Strider")
 
 
 
